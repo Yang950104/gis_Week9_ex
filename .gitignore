@@ -1,0 +1,114 @@
+# Week 9 Remote Sensing Lab - Git Ignore File
+# =============================================
+
+# Environment variables (NEVER commit to Git!)
+.env
+.env.local
+.env.*.local
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Output files and results (generated content)
+output/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.txt
+*.csv
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.tif
+*.tiff
+
+# Data directories
+data/
+*.zip
+*.tar.gz
+*.rar
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# GDAL/PROJ cache
+.gdal/
+.proj/
+
+# Dask cache
+.dask/
+
+# Rasterio temporary files
+.rasterio/
+
+# Planetary Computer cache
+.pc/
+
+# Sentinel-2 temporary downloads
+*.SAFE/
+
+# Configuration files with sensitive data
+config.json
+credentials.json
+api_keys.txt
+secrets.txt
+
+# Backup files
+*.bak
+*.backup
+*.old
