@@ -53,11 +53,8 @@ data/*.prj
 data/*.cpg
 
 # Output files
-output/*.png
-output/*.jpg
-output/*.tif
-output/*.txt
-output/*.pdf
+output/output_ex/
+output/output_ex/*
 *.csv
 *.geojson
 *.shp

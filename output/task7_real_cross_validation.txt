@@ -1,0 +1,23 @@
+TASK 7: WEEK 8 vs WEEK 9 CROSS-VALIDATION ANALYSIS (REAL DATA)
+============================================================
+
+Data Source: Real Sentinel-2 L2A imagery
+Execution Date: 2026-04-27 04:51:31
+
+COMPARISON TABLE:
+----------------------------------------
+                Aspect                                                    Week 8                                                                  Week 9                 Improvement
+           Methodology Visual interpretation with threshold-based classification Quantitative analysis with SCL cloud masking and threshold optimization    SCL masking + validation
+           Data Source                             Sentinel-2 (no cloud masking)                                             Real Sentinel-2 L2A imagery       Cloud masking applied
+      Overall Accuracy                                            Not quantified                                                                   85.0%  Quantified with validation
+              F1-Score                                            Not calculated                                                                   0.815 Validated with ground truth
+   Landslide Detection                                               3082 blocks                                                             253.930 km²             Quantified area
+Barrier Lake Detection                                                     False                                                         +321,167 pixels     Quantified water change
+      Confidence Level                           High - strong spectral evidence                                                   Validated - F1: 0.815         Validated vs visual
+
+KEY FINDINGS:
+----------------------------------------
+• Week 9 overall accuracy: 85.0%
+• Week 9 F1-Score: 0.815
+• High confidence area: 253.930 km²
+• Water change (Pre→Mid): +321,167 pixels
