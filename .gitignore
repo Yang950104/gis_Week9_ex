@@ -41,6 +41,12 @@ remo_w9/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+# # Student notebook files (original templates)
+Week9_Student_ipynb.ipynb
+
+# Additional output directoriess
+output_ex/
+
 # Output files and results (generated content)
 output/
 *.png
